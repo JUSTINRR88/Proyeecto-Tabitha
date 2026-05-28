@@ -1,0 +1,36 @@
+.uppPart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cajaHeader{
+    color: rgb(9, 169, 255);
+    
+
+}
+.cajaHeader1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cajaHeader1 h2:hover{
+
+    color: rgb(9, 169, 255);
+
+}
+
+.puntero{
+    width: 0;
+    height: 3px;
+    background-color:rgb(9, 169, 255);
+    transition: 0.5s;
+}
+
+/* Cuando pases el mouse */
+.hijoHeader:hover .puntero{
+    width: 7rem;
+}

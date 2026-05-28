@@ -1,0 +1,20 @@
+.Principal{
+    width: 100rem;
+    height: 60rem;
+    display: grid;
+    grid-template-columns: 25% 1fr 1fr;
+    grid-template-rows: 15% 1fr 1fr;
+
+}
+
+.Menu{
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+.uppPart{
+    grid-column: 1/4;
+}
+
+.baner{
+    grid-row: 2/4;
+}
